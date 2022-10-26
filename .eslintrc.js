@@ -19,6 +19,7 @@ module.exports = {
       }
     ],
     'vue/multi-word-component-names': 0,
-    'no-useless-return': 0
+    'no-useless-return': 0,
+    'vue/no-unused-vars': 0
   }
 }
