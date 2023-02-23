@@ -2,7 +2,9 @@
   <div class="login_container">
     <div class="login_box">
       <!--      头像区域-->
-      <div class="avatar_box"></div>
+      <div class="avatar_box">
+        <img src="@/assets/7-230210152S2.jpg" alt="" />
+      </div>
       <!--      表单提交区域-->
       <el-form :rules="loginFormRules" ref="loginFormRef" label-width="0px" class="login_form" :model="loginForm">
         <!--        用户名-->
